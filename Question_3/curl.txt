@@ -1,0 +1,1270 @@
+curl 'https://browserapi.manomano.co.uk/api/v1/web-vitals/beacon' \
+  -X 'OPTIONS' \
+  -H 'authority: browserapi.manomano.co.uk' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: content-type' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/web-vitals/beacon' \
+  -H 'authority: browserapi.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json;charset=utf-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; OAuth_Token_Request_State=f8746941-0456-4143-b838-11ce3b8f1dc0; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _gat_UA-41830167-5=1; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a' \
+  --data-raw '{"browserContext":{"url":"https://www.manomano.co.uk/search/art","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"},"service":"spartacux","resource":"search","version":"b0e96070","metrics":[{"name":"Next.js-render","value":148,"startTime":1018},{"name":"Next.js-route-change-to-render","value":1026,"startTime":0}],"startTime":"2021-06-07T21:03:43.904Z","duration":1166}' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/_next/data/B09D-OsshTgG-jTfK8h2w/search.json' \
+  -H 'authority: www.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/search/art' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; CookieConsent={stamp:%27sVOgJ9HlAmsBZM8mACaETerjsAuBmMUTw2pPx7JJ1QNvUTipEtKBTA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1623076067892%2Cregion:%27mx%27}; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; OAuth_Token_Request_State=f8746941-0456-4143-b838-11ce3b8f1dc0; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _gat_UA-41830167-5=1; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a' \
+  -H 'if-none-match: W/"88f82-SUpuM+3z8TqCLGE2cQC8NdWxlNU"' \
+  -H 'if-modified-since: Mon, 07 Jun 2021 21:01:35 GMT' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:02.988Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"3695601e04784fc287eaeaf680af10b9","init":false,"started":"2021-06-07T21:03:44.922Z","timestamp":"2021-06-07T21:04:02.988Z","status":"exited","errors":0,"duration":18066,"attrs":{"release":"b0e96070","environment":"production"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:02.989Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":true,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:02.988Z","status":"ok","errors":0,"duration":0,"attrs":{"release":"b0e96070","environment":"production"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.104Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.104Z","status":"ok","errors":0,"duration":116,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.108Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.108Z","status":"ok","errors":0,"duration":120,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.113Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.113Z","status":"ok","errors":0,"duration":125,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.117Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.117Z","status":"ok","errors":0,"duration":129,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.124Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.124Z","status":"ok","errors":0,"duration":136,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.130Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.130Z","status":"ok","errors":0,"duration":142,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.137Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.137Z","status":"ok","errors":0,"duration":149,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.142Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.142Z","status":"ok","errors":0,"duration":154,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.148Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.148Z","status":"ok","errors":0,"duration":160,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.153Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.153Z","status":"ok","errors":0,"duration":165,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.160Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.160Z","status":"ok","errors":0,"duration":172,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.164Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.164Z","status":"ok","errors":0,"duration":176,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.169Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.169Z","status":"ok","errors":0,"duration":181,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:04:03.174Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:04:03.174Z","status":"ok","errors":0,"duration":186,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://www.facebook.com/tr/?id=893742700702419&ev=PageView&dl=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch&rl=&if=false&ts=1623099842993&sw=1536&sh=960&v=2.9.40&r=stable&ec=4&o=30&fbp=fb.2.1623076068753.626464643&it=1623099718483&coo=false&exp=l0&rqm=GET' \
+  -H 'authority: www.facebook.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: sb=2PFzXjqazMqngeoJmNZkNxLK; datr=2fFzXuBO0x8PVatFbxXEg0qT; c_user=1458081878; x-referer=eyJyIjoiL2xldGljaWFyb2phc3QiLCJoIjoiL2xldGljaWFyb2phc3QiLCJzIjoibSJ9; spin=r.1003915148_b.trunk_t.1623034361_s.1_v.2_; xs=32%3ALhVC2fZKybWLgQ%3A2%3A1605051465%3A-1%3A4071%3A%3AAcXLR77D0uvX6LTvAejLuz0Zg5CyWW9p9Xm9rI53i51v; fr=1VZBxIxZwZpzsWC0J.AWU-6j5hdr9Tx5YBVSBt2wYB7MI.BgvlZX.qB.GC-.0.0.BgvlZX.' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/oauth/token' \
+  -H 'authority: www.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/search' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; CookieConsent={stamp:%27sVOgJ9HlAmsBZM8mACaETerjsAuBmMUTw2pPx7JJ1QNvUTipEtKBTA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1623076067892%2Cregion:%27mx%27}; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; OAuth_Token_Request_State=f8746941-0456-4143-b838-11ce3b8f1dc0; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _gat_UA-41830167-5=1; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a' \
+  --compressed ;
+curl 'https://consent.cookiebot.com/uc.js' \
+  -H 'authority: consent.cookiebot.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'if-none-match: "0a6829bf855d71:0"' \
+  -H 'if-modified-since: Mon, 31 May 2021 08:40:28 GMT' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/assets/img/themes/default/favicons/favicon.png' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/search' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://halc.iadvize.com/api/visitor/e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575/set-state?website_id=7143' \
+  -X 'PUT' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"lang":"en"}' \
+  --compressed ;
+curl 'https://halc.iadvize.com/api/visitor/e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575/set-state?website_id=7143' \
+  -X 'OPTIONS' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: PUT' \
+  -H 'access-control-request-headers: content-type' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/collector/ha/live/events' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"event":"engagement.tag.loaded","properties":{"visitorDate":"2021-06-07T21:04:03.879Z","projectId":"ha-7143","sourceVisitorId":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","visitorLanguage":"en","device":"desktop","browser":"Chrome","url":"https://www.manomano.co.uk/search","referrer":""}}' \
+  --compressed ;
+curl 'https://static.iadvize.com/livechat/3.226.2/orchestrator.c01dacba.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: ' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://api.iadvize.com/conversations/routing/targeting-rules/available?platform=ha&lang=en&ids\[\]=422787' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/engagement/targeted-visitors/triggered-rules?platform=ha' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"visitor":{"id":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","websiteId":7143,"sessionId":"78fe0c88-80ac-4ca2-85e6-4881f4bc8561"},"qualificationRules":[],"interactionRules":[{"id":422787,"isVisibleAndAvailable":true,"canBeDisplayed":true,"shouldIncrementDisplayCount":true,"shouldIncrementMissedDisplayCount":false,"availability":{"chat":{"available":true,"busy":false},"call":{"available":false,"busy":false},"video":{"available":false,"busy":false},"mobileapp":{"available":false,"busy":false},"social":{"available":false,"busy":false},"callInstant":{"available":false,"enabled":true},"callMeeting":{"available":false,"enabled":false}}}]}' \
+  --compressed ;
+curl 'https://api.iadvize.com/collector/ha/live/events' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"event":"engagement.rule.executed","properties":{"visitorDate":"2021-06-07T21:04:06.414Z","projectId":"ha-7143","sourceVisitorId":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","visitorLanguage":"en","device":"desktop","browser":"Chrome","url":"https://www.manomano.co.uk/search/art","engagementRuleId":"422787"}}' \
+  --compressed ;
+curl 'https://static.iadvize.com/livechat/3.226.2/notification.b96ef559.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: ' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://static.iadvize.com/livechat/3.226.2/notification.7a02d59f.css' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: ' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://api.iadvize.com/collector/ha/live/events' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"event":"engagement.notification.displayed","properties":{"visitorDate":"2021-06-07T21:04:06.633Z","projectId":"ha-7143","sourceVisitorId":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","visitorLanguage":"en","device":"desktop","browser":"Chrome","url":"https://www.manomano.co.uk/search/art","notificationId":"44d24e77-d41e-4196-931c-8c964d2b1d75","notificationType":"templated_notification","notificationChannels":["chat"],"engagementRuleId":"422787","notificationTemplateId":"41dde80c-4ab6-46ab-b9d4-c029086f7eb8"}}' \
+  --compressed ;
+curl $'https://halc.iadvize.com/rpc/jsonstore.php?sid=7143&u=e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575&data=%7B%22proactif_activated%22%3A%220%22%2C%22message%22%3A%22The%20rule%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%20has%20been%20executed%22%2C%22proactif_activatedId%22%3A422787%2C%22proactif_alert%22%3A%22\u0021proactif%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%22%2C%22phoneDisplayed%22%3A%220%22%7D&callback=?' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/conversations/routing/targeting-rules/available?platform=ha&lang=en&ids\[\]=422787' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl $'https://halc.iadvize.com/rpc/jsonstore.php?sid=7143&u=e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575&data=%7B%22proactif_activated%22%3A%220%22%2C%22message%22%3A%22The%20rule%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%20has%20been%20executed%22%2C%22proactif_activatedId%22%3A422787%2C%22proactif_alert%22%3A%22\u0021proactif%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%22%2C%22phoneDisplayed%22%3A%220%22%7D&callback=?' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/conversations/routing/targeting-rules/available?platform=ha&lang=en&ids\[\]=422787' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl $'https://halc.iadvize.com/rpc/jsonstore.php?sid=7143&u=e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575&data=%7B%22proactif_activated%22%3A%220%22%2C%22message%22%3A%22The%20rule%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%20has%20been%20executed%22%2C%22proactif_activatedId%22%3A422787%2C%22proactif_alert%22%3A%22\u0021proactif%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%22%2C%22phoneDisplayed%22%3A%220%22%7D&callback=?' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:05:27.806Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"7461485f15594cc4af5cf16d29cf86a0","init":false,"started":"2021-06-07T21:04:02.988Z","timestamp":"2021-06-07T21:05:27.806Z","status":"exited","errors":0,"duration":84818,"attrs":{"release":"b0e96070","environment":"production","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:05:27.810Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"57d0a8b0110e4dda811c869290dad0ed","init":true,"started":"2021-06-07T21:05:27.806Z","timestamp":"2021-06-07T21:05:27.806Z","status":"ok","errors":0,"duration":0,"attrs":{"release":"b0e96070","environment":"production"}}' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/web-vitals/beacon' \
+  -H 'authority: browserapi.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json;charset=utf-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a; OAuth_Token_Request_State=9b182780-6da4-47d0-9e8f-d8bd4c5316d9' \
+  --data-raw '{"browserContext":{"url":"https://www.manomano.co.uk/search/art","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"},"service":"spartacux","resource":"search","version":"b0e96070","metrics":[{"name":"Next.js-render","value":184,"startTime":70},{"name":"Next.js-route-change-to-render","value":76,"startTime":0}],"startTime":"2021-06-07T21:04:02.921Z","duration":254}' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/_next/data/B09D-OsshTgG-jTfK8h2w/search.json?query=art' \
+  -H 'authority: www.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/search/art' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; CookieConsent={stamp:%27sVOgJ9HlAmsBZM8mACaETerjsAuBmMUTw2pPx7JJ1QNvUTipEtKBTA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1623076067892%2Cregion:%27mx%27}; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a; OAuth_Token_Request_State=9b182780-6da4-47d0-9e8f-d8bd4c5316d9' \
+  -H 'if-none-match: W/"88d78-OXpfhIrWAUXFypIkK+rTsWY1e4I"' \
+  --compressed ;
+curl 'https://www.facebook.com/tr/?id=893742700702419&ev=PageView&dl=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&rl=&if=false&ts=1623099927825&sw=1536&sh=960&v=2.9.40&r=stable&ec=5&o=30&fbp=fb.2.1623076068753.626464643&it=1623099718483&coo=false&exp=l0&rqm=GET' \
+  -H 'authority: www.facebook.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: sb=2PFzXjqazMqngeoJmNZkNxLK; datr=2fFzXuBO0x8PVatFbxXEg0qT; c_user=1458081878; x-referer=eyJyIjoiL2xldGljaWFyb2phc3QiLCJoIjoiL2xldGljaWFyb2phc3QiLCJzIjoibSJ9; spin=r.1003915148_b.trunk_t.1623034361_s.1_v.2_; xs=32%3ALhVC2fZKybWLgQ%3A2%3A1605051465%3A-1%3A4071%3A%3AAcXLR77D0uvX6LTvAejLuz0Zg5CyWW9p9Xm9rI53i51v; fr=1VZBxIxZwZpzsWC0J.AWU-6j5hdr9Tx5YBVSBt2wYB7MI.BgvlZX.qB.GC-.0.0.BgvlZX.' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/assets/img/themes/default/favicons/favicon.png' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/search/art' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/web-vitals/beacon' \
+  -X 'OPTIONS' \
+  -H 'authority: browserapi.manomano.co.uk' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: content-type' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://halc.iadvize.com/api/visitor/e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575/set-state?website_id=7143' \
+  -X 'PUT' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"lang":"en"}' \
+  --compressed ;
+curl 'https://halc.iadvize.com/api/visitor/e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575/set-state?website_id=7143' \
+  -X 'OPTIONS' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: PUT' \
+  -H 'access-control-request-headers: content-type' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:05:28.298Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"57d0a8b0110e4dda811c869290dad0ed","init":false,"started":"2021-06-07T21:05:27.806Z","timestamp":"2021-06-07T21:05:28.298Z","status":"exited","errors":0,"duration":492,"attrs":{"release":"b0e96070","environment":"production"}}' \
+  --compressed ;
+curl 'https://o119305.ingest.sentry.io/api/5294799/envelope/?sentry_key=dcb4aca9e05b4c0b8699ff2a509d64d1&sentry_version=7' \
+  -H 'authority: o119305.ingest.sentry.io' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw $'{"sent_at":"2021-06-07T21:05:28.300Z","sdk":{"name":"sentry.javascript.browser","version":"6.2.5"}}\n{"type":"session"}\n{"sid":"d816de8bad31423b80854383ac5e3784","init":true,"started":"2021-06-07T21:05:28.298Z","timestamp":"2021-06-07T21:05:28.298Z","status":"ok","errors":0,"duration":0,"attrs":{"release":"b0e96070","environment":"production"}}' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/cart/count' \
+  -H 'authority: www.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/search/art' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; CookieConsent={stamp:%27sVOgJ9HlAmsBZM8mACaETerjsAuBmMUTw2pPx7JJ1QNvUTipEtKBTA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1623076067892%2Cregion:%27mx%27}; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a; OAuth_Token_Request_State=9b182780-6da4-47d0-9e8f-d8bd4c5316d9' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/campaigns/GB/B2C/onglet_banner' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/ajax/referer?page_type=search' \
+  -H 'authority: www.manomano.co.uk' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/search/art' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mm_visitor_id=644d013f-394c-27fb-7adc-77149ac267b9; mm_ab_test_version=5c79a25897fa32cb530404e589729a57; mm_ab_tests=59.1|60.1|76.0|97.0|280.1|288.1|303.0|352.1|368.1|371.1|448.0|453.0|473.0|484.1|486.1|495.1|497.1|498.1|503.1|519.1|528.0|529.0|530.0|541.1|558.1|19.1|564.0|578.0|582.0|595.1|596.1|183.0|604.0|605.0|608.0|402.1|610.1|611.1|612.1|617.0|620.0|625.1|631.0|632.1|636.0|639.1|642.0|658.0|659.0|645.1|666.1; mm_spartacux=0; request_uri=L29hdXRoL3Rva2Vu; ab_testing_theme=a; PHPSESSID=qidqf8kc3qc4vggk879a3u8ca8; referer_id=3; CookieConsent={stamp:%27sVOgJ9HlAmsBZM8mACaETerjsAuBmMUTw2pPx7JJ1QNvUTipEtKBTA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1623076067892%2Cregion:%27mx%27}; _gcl_au=1.1.119545111.1623076068; _ga=GA1.3.94203958.1623076068; _gid=GA1.3.2124765392.1623076068; _fbp=fb.2.1623076068753.626464643; _spmm_ses.ebd1=*; _uetsid=888241f0c79c11ebba7d899018c1f27f; _uetvid=88825b10c79c11eb8d5f395ae5083553; multireferer_id=a%3A1%3A%7Bi%3A3%3Bs%3A24%3A%222021-06-07T22%3A03%3A46%2B0100%22%3B%7D; _spmm_id.ebd1=2b649d56-66f5-404d-b419-c76b3edc2e56.1623076068.3.1623099826.1623083166.6d5d6177-b15c-42b8-bf4c-b9a4d69b224b; amp_eb4016=GY4t9VHuuVHd-z-5tIa6sl...1f7k3r0re.1f7k4jo3a.15.15.2a; OAuth_Token_Request_State=9b182780-6da4-47d0-9e8f-d8bd4c5316d9' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/campaigns/GB/B2C/onglet_banner' \
+  -X 'OPTIONS' \
+  -H 'authority: browserapi.manomano.co.uk' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: GET' \
+  -H 'access-control-request-headers: x-requested-with' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/campaigns/GB/B2C/middle_banner' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://browserapi.manomano.co.uk/api/v1/campaigns/GB/B2C/middle_banner' \
+  -X 'OPTIONS' \
+  -H 'authority: browserapi.manomano.co.uk' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: GET' \
+  -H 'access-control-request-headers: x-requested-with' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/collector/ha/live/events' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"event":"engagement.tag.loaded","properties":{"visitorDate":"2021-06-07T21:05:28.788Z","projectId":"ha-7143","sourceVisitorId":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","visitorLanguage":"en","device":"desktop","browser":"Chrome","url":"https://www.manomano.co.uk/search/art","referrer":""}}' \
+  --compressed ;
+curl 'https://static.iadvize.com/livechat/3.226.2/orchestrator.c01dacba.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: ' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl $'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'736\' height=\'104\'%3E%3Cdefs%3E%3ClinearGradient id=\'g1\'%3E%3Cstop stop-color=\'%23F5F6F7\'/%3E%3Cstop offset=\'.983\' stop-color=\'%23ECEDF0\'/%3E%3Cstop offset=\'1\' stop-color=\'%23ECEDF0\'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'url(%23g1)\'/%3E%3C/svg%3E' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google-analytics.com/j/collect?v=1&_v=j90&a=534115296&t=pageview&_s=1&dl=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&ul=es-us&de=UTF-8&dt=art&sd=30-bit&sr=1536x960&vp=1536x881&je=0&_u=SCCAAEALAAAAAC~&jid=572102081&gjid=2094934671&cid=94203958.1623076068&uid=&tid=UA-41830167-5&_gid=2124765392.1623076068&_r=1&gtm=2wg6215ZCXJF6&gcs=G111&cg1=search&cd1=BRAND&cd2=DIRECT_ACCESS&cd4=Acc%C3%A8s%20direct&cd5=3&cd7=searchresults&cd12=3&cd15=&cd21=b2c&cd22=web&cd23=false&cd25=production&cd26=0&cd27=false&cd28=product_filter_used&cd70=SpartacUX&cd75=feature_a&cd77=gb&z=414139657' \
+  -X 'POST' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'content-length: 0' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://www.googleadservices.com/pagead/conversion_async.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://www.googleadservices.com/pagead/conversion/455023481/?random=1623099929433&cv=9&fst=1623099929433&num=1&value=0&label=8H46COrCovABEPm2_NgB&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&did=dMWZhNz&gcs=G111&gcd=G100&capi=1&hn=www.googleadservices.com&bttype=purchase&us_privacy=1---&async=1&rfmt=3&fmt=4' \
+  -H 'authority: www.googleadservices.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://snowplow.manomano-api.com/com.snowplowanalytics.snowplow/tp2' \
+  -X 'OPTIONS' \
+  -H 'authority: snowplow.manomano-api.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: content-type' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://snowplow.manomano-api.com/com.snowplowanalytics.snowplow/tp2' \
+  -H 'authority: snowplow.manomano-api.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"schema":"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4","data":[{"e":"ue","ue_px":"eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy91bnN0cnVjdF9ldmVudC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJzY2hlbWEiOiJpZ2x1OmNvbS5tYW5vbWFuby5pZ2x1L2d0bV9wcm9kdWN0X2xpc3RpbmdfZGlzcGxheWVkL2pzb25zY2hlbWEvMS0wLTMiLCJkYXRhIjp7InBhZ2VfbmFtZSI6ImFydCIsIm5iX3Jlc3VsdHMiOjAsIm5iX3Jlc3VsdHNfcGFnZSI6MCwic2VhcmNoX3F1ZXJ5IjoiIn19fQ","tv":"js-2.9.0","tna":"stream-tracker","aid":"stream-tracker","p":"web","tz":"America/Mexico_City","lang":"es-US","cs":"UTF-8","f_pdf":"1","f_qt":"0","f_realp":"0","f_wma":"0","f_dir":"0","f_fla":"0","f_java":"0","f_gears":"0","f_ag":"0","res":"1536x960","cd":"30","cookie":"1","eid":"4865bfaa-937a-488d-9c01-51556b7f75dc","dtm":"1623099929454","vp":"1536x881","ds":"1536x6179","vid":"3","sid":"6d5d6177-b15c-42b8-bf4c-b9a4d69b224b","duid":"2b649d56-66f5-404d-b419-c76b3edc2e56","fp":"1904607806","url":"https://www.manomano.co.uk/search/art","stm":"1623099929457"}]}' \
+  --compressed ;
+curl 'https://via.batch.com/v2/bootstrap.min.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://cdn.amplitude.com/libs/amplitude-8.1.0-min.gz.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'Origin: https://www.manomano.co.uk' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google.com/pagead/privacysandbox/conversion/455023481/?random=1623099929433&cv=9&fst=1623099929433&num=1&fmt=3&value=0&label=8H46COrCovABEPm2_NgB&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&did=dMWZhNz&gcs=G111&gcd=G100&capi=1&hn=www.googleadservices.com&bttype=purchase&us_privacy=1---&async=1' \
+  -H 'authority: www.google.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; __Secure-3PSID=-Qdhx01409koAkcMkMmWwIaL59vsg0yLBXM0IwFDJG27K4oEnmCBEAen9hKFBbn4mefLQA.; NID=216=q4m5kiq2Eu_eDIwTXlVzTlSsuYjfK69NUsLiEDa6zh9_9yUey-428jimCKlY7wMOFxmpeamMH_ywc7CXvPnwR1ocmDal09QGLSmcdO697p9HS7lvX-9tVcx5JpzJxgglanzVZZ7IF4W5_kqcYPADa0BDE7sN3H5zfFGiTubsoJcZc-Xll2ikDC0uOE8B4Rk-2_5xJnBukj8dkcPKgT-J5D5ULco9WKbeoRbR299IpMngioH-z59pMfhszvnxW2xH2ew; 1P_JAR=2021-06-07-20; __Secure-3PSIDCC=AJi4QfFOcVlg0rNtD9IQhO8kX6i14o6BYZrMX63apsN0rb9xDCbpfKbFpMYGYc_D3FpxXKm2GRw' \
+  --compressed ;
+curl 'https://eu.evt.mb-srv.com/v2/pixel/visit?storeHash=e8fe2c6a342424ff46b27ea9be74b2fe&cookie=undefined&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&platform=desktop&referrerUrl=&signal=undefined&pageType=search&gtmcb=1783031334' \
+  -H 'authority: eu.evt.mb-srv.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: mabaya=undefined' \
+  --compressed ;
+curl 'https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-41830167-5&cid=94203958.1623076068&jid=572102081&gjid=2094934671&_gid=2124765392.1623076068&_u=SCCAAEALAAAAAC~&z=812356573' \
+  -X 'POST' \
+  -H 'authority: stats.g.doubleclick.net' \
+  -H 'content-length: 0' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: text/plain' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: DSID=AAO-7r52y8_lZY6Nyw90fdmOIHHx8POpKYEwQbT4kwDDrU_a6kcBddhIjBvOKcvOGaBNG2ufKSHXyJEkrNd65Zdp0Q-keB47WL1NUZUGDjnXiaAKzjird0A; RUL=EIS9pf4FGISkqo0GIskHATZhkOMPXXgNI8MCRZtUztsFhm6b6KdWKokAoGu1OIlrgXHiEoiw6ZWXTpr0jSyLCtl2jhLFJN_2AQ7rqDL4dpTkgdXKgAmCRLiLpHOvbRFPCrZ9tNsrx8_rb_aqkzT-p0LxD0zJCU_GSiuwSx4uTbsm9YqBiZkSPy0nmRsFjgNjm5cS4QN--kLvwTRm5IYozhw_pAlTkhxMsjNsU0LOWOwAd1B8ZV3G2vAxwhdqMT1_VgHcb-ddAetFN27AweW7ztSqw_NXNGZgLWqWbce6Z8foYEJrzLio-JSQYpnjUgr8PB2ZLlyZWhLzDkp_3M4AZ81R--Vue6nkbxb5OUGgmMVNwBUjguc1FU8OEYbNrDjOlv8Ymi79gHzRb79l6VNQds3IDUVw70zizZkNWVyec2nR1SbbIhadhvhaaQz473jvQgnUDHe_Cm0EMfG1EY9VKwx5E5linl_0Y7QAuBqaijdak1S5ZjYgBC0AD3yIW43w-BiIn6q2uTEHafdSfQjnp_ZaWY_bvdu7Fc4Rdl3gfgu3HoJsQ2cdYykZzulhhkehr_rqCA04AtP_fEptgXHVZrHEJRT-A2NRtmzLYH9Dq92ZS4ROFXouRFMZsfA5X7Ly3k8ZrWYZr_pmkbr5xg5pvjgXuqnoo8F_mtCKKZbaEoXcZc47xyaDHvXaFyp1b0vbsbk0wrD8sVbj1iuQ3Apa2u540RJqnqBd4cUQgGEWvutwaDQ3nSo6CishuyB0d0X0iVzbaZRebNlxkijNJFqWJzPoS8Vcpeq87qfLeb3ML1Y8MtWskbqZTMaryd2tElYNAvDTPgAywhe5tMdcIldqR6riuTQtrpj1WYRVp6mPIrbe3kEzh7lrvW98wtlvHB8Pt5IGpLWAURrmT4XgUJZ6bXO87_43U1CNZk_Yhyg-Bnn6lcxifZLGkiP7pPmp1hbi1hqeYPBdbdPG9N4C1f4RjQqqT4oXjLSB50z1uN9nYhVDg8vmuPHArP_2DvgXZbii019ewtq4E76tpGCLM_BHHNIUQl2WRzfnEwRcILOUv99dGSPj_81L0_QNyODRcStuN26LjPaK087HXkc_J_Gj1bwAX3XFG51M6n-b4i4chIKPctVTZTty4rKP-zS-89U4EOO6Ym2rZDeOY2MddXnKAtFQ05hET21ZDg1zwhprHzUxjoRXIbp-hPEgyP_4UxbUkxo6MdfIZQ-Out7Loug5U0JUKUeTcdcA574v5HpcEadsCH2N9suYfMrmf7PoLOhbkpZ0xO29jBYR-bA9e5ZdkZsrbaMGRwUc|cs=AP6Md-UHdtSo_jwrk69nj1nwwhho; IDE=AHWqTUkD1mHczWhaDydRkQAPnC3DqLIQtbFLiNSjL8EqozFGNQVsCLRU-iTPiD39' \
+  --compressed ;
+curl 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/965976234/?random=1623099929494&cv=9&fst=1623099929494&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=376635471%2C2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&hn=www.googleadservices.com&us_privacy=1---&async=1&rfmt=3&fmt=4' \
+  -H 'authority: googleads.g.doubleclick.net' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: DSID=AAO-7r52y8_lZY6Nyw90fdmOIHHx8POpKYEwQbT4kwDDrU_a6kcBddhIjBvOKcvOGaBNG2ufKSHXyJEkrNd65Zdp0Q-keB47WL1NUZUGDjnXiaAKzjird0A; RUL=EIS9pf4FGISkqo0GIskHATZhkOMPXXgNI8MCRZtUztsFhm6b6KdWKokAoGu1OIlrgXHiEoiw6ZWXTpr0jSyLCtl2jhLFJN_2AQ7rqDL4dpTkgdXKgAmCRLiLpHOvbRFPCrZ9tNsrx8_rb_aqkzT-p0LxD0zJCU_GSiuwSx4uTbsm9YqBiZkSPy0nmRsFjgNjm5cS4QN--kLvwTRm5IYozhw_pAlTkhxMsjNsU0LOWOwAd1B8ZV3G2vAxwhdqMT1_VgHcb-ddAetFN27AweW7ztSqw_NXNGZgLWqWbce6Z8foYEJrzLio-JSQYpnjUgr8PB2ZLlyZWhLzDkp_3M4AZ81R--Vue6nkbxb5OUGgmMVNwBUjguc1FU8OEYbNrDjOlv8Ymi79gHzRb79l6VNQds3IDUVw70zizZkNWVyec2nR1SbbIhadhvhaaQz473jvQgnUDHe_Cm0EMfG1EY9VKwx5E5linl_0Y7QAuBqaijdak1S5ZjYgBC0AD3yIW43w-BiIn6q2uTEHafdSfQjnp_ZaWY_bvdu7Fc4Rdl3gfgu3HoJsQ2cdYykZzulhhkehr_rqCA04AtP_fEptgXHVZrHEJRT-A2NRtmzLYH9Dq92ZS4ROFXouRFMZsfA5X7Ly3k8ZrWYZr_pmkbr5xg5pvjgXuqnoo8F_mtCKKZbaEoXcZc47xyaDHvXaFyp1b0vbsbk0wrD8sVbj1iuQ3Apa2u540RJqnqBd4cUQgGEWvutwaDQ3nSo6CishuyB0d0X0iVzbaZRebNlxkijNJFqWJzPoS8Vcpeq87qfLeb3ML1Y8MtWskbqZTMaryd2tElYNAvDTPgAywhe5tMdcIldqR6riuTQtrpj1WYRVp6mPIrbe3kEzh7lrvW98wtlvHB8Pt5IGpLWAURrmT4XgUJZ6bXO87_43U1CNZk_Yhyg-Bnn6lcxifZLGkiP7pPmp1hbi1hqeYPBdbdPG9N4C1f4RjQqqT4oXjLSB50z1uN9nYhVDg8vmuPHArP_2DvgXZbii019ewtq4E76tpGCLM_BHHNIUQl2WRzfnEwRcILOUv99dGSPj_81L0_QNyODRcStuN26LjPaK087HXkc_J_Gj1bwAX3XFG51M6n-b4i4chIKPctVTZTty4rKP-zS-89U4EOO6Ym2rZDeOY2MddXnKAtFQ05hET21ZDg1zwhprHzUxjoRXIbp-hPEgyP_4UxbUkxo6MdfIZQ-Out7Loug5U0JUKUeTcdcA574v5HpcEadsCH2N9suYfMrmf7PoLOhbkpZ0xO29jBYR-bA9e5ZdkZsrbaMGRwUc|cs=AP6Md-UHdtSo_jwrk69nj1nwwhho; IDE=AHWqTUkD1mHczWhaDydRkQAPnC3DqLIQtbFLiNSjL8EqozFGNQVsCLRU-iTPiD39' \
+  --compressed ;
+curl 'https://bid.g.doubleclick.net/xbbe/pixel?d=KAE' \
+  -H 'authority: bid.g.doubleclick.net' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-dest: iframe' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: DSID=AAO-7r52y8_lZY6Nyw90fdmOIHHx8POpKYEwQbT4kwDDrU_a6kcBddhIjBvOKcvOGaBNG2ufKSHXyJEkrNd65Zdp0Q-keB47WL1NUZUGDjnXiaAKzjird0A; RUL=EIS9pf4FGISkqo0GIskHATZhkOMPXXgNI8MCRZtUztsFhm6b6KdWKokAoGu1OIlrgXHiEoiw6ZWXTpr0jSyLCtl2jhLFJN_2AQ7rqDL4dpTkgdXKgAmCRLiLpHOvbRFPCrZ9tNsrx8_rb_aqkzT-p0LxD0zJCU_GSiuwSx4uTbsm9YqBiZkSPy0nmRsFjgNjm5cS4QN--kLvwTRm5IYozhw_pAlTkhxMsjNsU0LOWOwAd1B8ZV3G2vAxwhdqMT1_VgHcb-ddAetFN27AweW7ztSqw_NXNGZgLWqWbce6Z8foYEJrzLio-JSQYpnjUgr8PB2ZLlyZWhLzDkp_3M4AZ81R--Vue6nkbxb5OUGgmMVNwBUjguc1FU8OEYbNrDjOlv8Ymi79gHzRb79l6VNQds3IDUVw70zizZkNWVyec2nR1SbbIhadhvhaaQz473jvQgnUDHe_Cm0EMfG1EY9VKwx5E5linl_0Y7QAuBqaijdak1S5ZjYgBC0AD3yIW43w-BiIn6q2uTEHafdSfQjnp_ZaWY_bvdu7Fc4Rdl3gfgu3HoJsQ2cdYykZzulhhkehr_rqCA04AtP_fEptgXHVZrHEJRT-A2NRtmzLYH9Dq92ZS4ROFXouRFMZsfA5X7Ly3k8ZrWYZr_pmkbr5xg5pvjgXuqnoo8F_mtCKKZbaEoXcZc47xyaDHvXaFyp1b0vbsbk0wrD8sVbj1iuQ3Apa2u540RJqnqBd4cUQgGEWvutwaDQ3nSo6CishuyB0d0X0iVzbaZRebNlxkijNJFqWJzPoS8Vcpeq87qfLeb3ML1Y8MtWskbqZTMaryd2tElYNAvDTPgAywhe5tMdcIldqR6riuTQtrpj1WYRVp6mPIrbe3kEzh7lrvW98wtlvHB8Pt5IGpLWAURrmT4XgUJZ6bXO87_43U1CNZk_Yhyg-Bnn6lcxifZLGkiP7pPmp1hbi1hqeYPBdbdPG9N4C1f4RjQqqT4oXjLSB50z1uN9nYhVDg8vmuPHArP_2DvgXZbii019ewtq4E76tpGCLM_BHHNIUQl2WRzfnEwRcILOUv99dGSPj_81L0_QNyODRcStuN26LjPaK087HXkc_J_Gj1bwAX3XFG51M6n-b4i4chIKPctVTZTty4rKP-zS-89U4EOO6Ym2rZDeOY2MddXnKAtFQ05hET21ZDg1zwhprHzUxjoRXIbp-hPEgyP_4UxbUkxo6MdfIZQ-Out7Loug5U0JUKUeTcdcA574v5HpcEadsCH2N9suYfMrmf7PoLOhbkpZ0xO29jBYR-bA9e5ZdkZsrbaMGRwUc|cs=AP6Md-UHdtSo_jwrk69nj1nwwhho; IDE=AHWqTUkD1mHczWhaDydRkQAPnC3DqLIQtbFLiNSjL8EqozFGNQVsCLRU-iTPiD39' \
+  --compressed ;
+curl 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/965976234/?random=1623099929499&cv=9&fst=1623099929499&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=2505059651&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&hn=www.googleadservices.com&us_privacy=1---&async=1&rfmt=3&fmt=4' \
+  -H 'authority: googleads.g.doubleclick.net' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: DSID=AAO-7r52y8_lZY6Nyw90fdmOIHHx8POpKYEwQbT4kwDDrU_a6kcBddhIjBvOKcvOGaBNG2ufKSHXyJEkrNd65Zdp0Q-keB47WL1NUZUGDjnXiaAKzjird0A; RUL=EIS9pf4FGISkqo0GIskHATZhkOMPXXgNI8MCRZtUztsFhm6b6KdWKokAoGu1OIlrgXHiEoiw6ZWXTpr0jSyLCtl2jhLFJN_2AQ7rqDL4dpTkgdXKgAmCRLiLpHOvbRFPCrZ9tNsrx8_rb_aqkzT-p0LxD0zJCU_GSiuwSx4uTbsm9YqBiZkSPy0nmRsFjgNjm5cS4QN--kLvwTRm5IYozhw_pAlTkhxMsjNsU0LOWOwAd1B8ZV3G2vAxwhdqMT1_VgHcb-ddAetFN27AweW7ztSqw_NXNGZgLWqWbce6Z8foYEJrzLio-JSQYpnjUgr8PB2ZLlyZWhLzDkp_3M4AZ81R--Vue6nkbxb5OUGgmMVNwBUjguc1FU8OEYbNrDjOlv8Ymi79gHzRb79l6VNQds3IDUVw70zizZkNWVyec2nR1SbbIhadhvhaaQz473jvQgnUDHe_Cm0EMfG1EY9VKwx5E5linl_0Y7QAuBqaijdak1S5ZjYgBC0AD3yIW43w-BiIn6q2uTEHafdSfQjnp_ZaWY_bvdu7Fc4Rdl3gfgu3HoJsQ2cdYykZzulhhkehr_rqCA04AtP_fEptgXHVZrHEJRT-A2NRtmzLYH9Dq92ZS4ROFXouRFMZsfA5X7Ly3k8ZrWYZr_pmkbr5xg5pvjgXuqnoo8F_mtCKKZbaEoXcZc47xyaDHvXaFyp1b0vbsbk0wrD8sVbj1iuQ3Apa2u540RJqnqBd4cUQgGEWvutwaDQ3nSo6CishuyB0d0X0iVzbaZRebNlxkijNJFqWJzPoS8Vcpeq87qfLeb3ML1Y8MtWskbqZTMaryd2tElYNAvDTPgAywhe5tMdcIldqR6riuTQtrpj1WYRVp6mPIrbe3kEzh7lrvW98wtlvHB8Pt5IGpLWAURrmT4XgUJZ6bXO87_43U1CNZk_Yhyg-Bnn6lcxifZLGkiP7pPmp1hbi1hqeYPBdbdPG9N4C1f4RjQqqT4oXjLSB50z1uN9nYhVDg8vmuPHArP_2DvgXZbii019ewtq4E76tpGCLM_BHHNIUQl2WRzfnEwRcILOUv99dGSPj_81L0_QNyODRcStuN26LjPaK087HXkc_J_Gj1bwAX3XFG51M6n-b4i4chIKPctVTZTty4rKP-zS-89U4EOO6Ym2rZDeOY2MddXnKAtFQ05hET21ZDg1zwhprHzUxjoRXIbp-hPEgyP_4UxbUkxo6MdfIZQ-Out7Loug5U0JUKUeTcdcA574v5HpcEadsCH2N9suYfMrmf7PoLOhbkpZ0xO29jBYR-bA9e5ZdkZsrbaMGRwUc|cs=AP6Md-UHdtSo_jwrk69nj1nwwhho; IDE=AHWqTUkD1mHczWhaDydRkQAPnC3DqLIQtbFLiNSjL8EqozFGNQVsCLRU-iTPiD39' \
+  --compressed ;
+curl 'https://via.batch.com/manifest.json' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://api.amplitude.com/' \
+  -H 'authority: api.amplitude.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw 'checksum=9fafa7e0d378e92159d63f5db74a5003&client=eb40164749e5ed36747e792ddfdba479&e=%5B%7B%22device_id%22%3A%22GY4t9VHuuVHd-z-5tIa6sl%22%2C%22user_id%22%3Anull%2C%22timestamp%22%3A1623099929523%2C%22event_id%22%3A38%2C%22session_id%22%3A1623099016046%2C%22event_type%22%3A%22%24identify%22%2C%22version_name%22%3Anull%2C%22platform%22%3A%22Web%22%2C%22os_name%22%3A%22Chrome%22%2C%22os_version%22%3A%2291%22%2C%22device_model%22%3A%22Mac%22%2C%22language%22%3A%22es-US%22%2C%22api_properties%22%3A%7B%7D%2C%22event_properties%22%3A%7B%7D%2C%22user_properties%22%3A%7B%22%24set%22%3A%7B%22channel%22%3A%22web%22%2C%22device_type%22%3A%22d%22%2C%22has_adblocker%22%3Afalse%2C%22tracking_referer_id%22%3A%223%22%2C%22platform_id%22%3A%22gb%22%2C%22is_crawler%22%3A%22false%22%2C%22is_logged_in%22%3Afalse%2C%22tracking_campaign%22%3A%22Acc%C3%A8s%20direct%22%2C%22tracking_channel%22%3A%22DIRECT_ACCESS%22%2C%22ab_test_59%22%3A%22feature_b%22%2C%22ab_test_60%22%3A%22feature_b%22%2C%22ab_test_76%22%3A%22feature_a%22%2C%22ab_test_97%22%3A%22feature_a%22%2C%22ab_test_280%22%3A%22feature_b%22%2C%22ab_test_288%22%3A%22feature_b%22%2C%22ab_test_303%22%3A%22feature_a%22%2C%22ab_test_352%22%3A%22feature_b%22%2C%22ab_test_368%22%3A%22feature_b%22%2C%22ab_test_371%22%3A%22feature_b%22%2C%22ab_test_448%22%3A%22feature_a%22%2C%22ab_test_453%22%3A%22feature_a%22%2C%22ab_test_473%22%3A%22feature_a%22%2C%22ab_test_484%22%3A%22feature_b%22%2C%22ab_test_486%22%3A%22feature_b%22%2C%22ab_test_495%22%3A%22feature_b%22%2C%22ab_test_497%22%3A%22feature_b%22%2C%22ab_test_498%22%3A%22feature_b%22%2C%22ab_test_503%22%3A%22feature_b%22%2C%22ab_test_519%22%3A%22feature_b%22%2C%22ab_test_528%22%3A%22feature_a%22%2C%22ab_test_529%22%3A%22feature_a%22%2C%22ab_test_530%22%3A%22feature_a%22%2C%22ab_test_541%22%3A%22feature_b%22%2C%22ab_test_558%22%3A%22feature_b%22%2C%22ab_test_19%22%3A%22feature_b%22%2C%22ab_test_564%22%3A%22feature_a%22%2C%22ab_test_578%22%3A%22feature_a%22%2C%22ab_test_582%22%3A%22feature_a%22%2C%22ab_test_595%22%3A%22feature_b%22%2C%22ab_test_596%22%3A%22feature_b%22%2C%22ab_test_183%22%3A%22feature_a%22%2C%22ab_test_604%22%3A%22feature_a%22%2C%22ab_test_605%22%3A%22feature_a%22%2C%22ab_test_608%22%3A%22feature_a%22%2C%22ab_test_402%22%3A%22feature_b%22%2C%22ab_test_610%22%3A%22feature_b%22%2C%22ab_test_611%22%3A%22feature_b%22%2C%22ab_test_612%22%3A%22feature_b%22%2C%22ab_test_617%22%3A%22feature_a%22%2C%22ab_test_620%22%3A%22feature_a%22%2C%22ab_test_625%22%3A%22feature_b%22%2C%22ab_test_631%22%3A%22feature_a%22%2C%22ab_test_632%22%3A%22feature_b%22%2C%22ab_test_636%22%3A%22feature_a%22%2C%22ab_test_639%22%3A%22feature_b%22%2C%22ab_test_642%22%3A%22feature_a%22%2C%22ab_test_658%22%3A%22feature_a%22%2C%22ab_test_659%22%3A%22feature_a%22%2C%22ab_test_645%22%3A%22feature_b%22%2C%22ab_test_666%22%3A%22feature_b%22%7D%7D%2C%22uuid%22%3A%2219297ce3-f43c-4bfe-abee-f8a6651a44fc%22%2C%22library%22%3A%7B%22name%22%3A%22amplitude-js%22%2C%22version%22%3A%228.1.0%22%7D%2C%22sequence_number%22%3A75%2C%22groups%22%3A%7B%7D%2C%22group_properties%22%3A%7B%7D%2C%22user_agent%22%3A%22Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F91.0.4472.77%20Safari%2F537.36%22%7D%5D&upload_time=1623099929524&v=2' \
+  --compressed ;
+curl 'https://via.batch.com/2.1.0/sdk.min.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/455023481/?random=2025999262&cv=9&fst=1623099929433&num=1&value=0&label=8H46COrCovABEPm2_NgB&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&did=dMWZhNz&gcs=G111&gcd=G100&capi=1&hn=www.googleadservices.com&us_privacy=1---&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=GYq-YLCkKJG6nwS26ID4Bw&sscte=1&crd=&eitems=ChAI8If3hQYQk7jy9urK55BhEh0A_EJhYwLh1ytN6JAmMGyPKXrevW2irfnFvLZK7A' \
+  -H 'authority: googleads.g.doubleclick.net' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: DSID=AAO-7r52y8_lZY6Nyw90fdmOIHHx8POpKYEwQbT4kwDDrU_a6kcBddhIjBvOKcvOGaBNG2ufKSHXyJEkrNd65Zdp0Q-keB47WL1NUZUGDjnXiaAKzjird0A; RUL=EIS9pf4FGISkqo0GIskHATZhkOMPXXgNI8MCRZtUztsFhm6b6KdWKokAoGu1OIlrgXHiEoiw6ZWXTpr0jSyLCtl2jhLFJN_2AQ7rqDL4dpTkgdXKgAmCRLiLpHOvbRFPCrZ9tNsrx8_rb_aqkzT-p0LxD0zJCU_GSiuwSx4uTbsm9YqBiZkSPy0nmRsFjgNjm5cS4QN--kLvwTRm5IYozhw_pAlTkhxMsjNsU0LOWOwAd1B8ZV3G2vAxwhdqMT1_VgHcb-ddAetFN27AweW7ztSqw_NXNGZgLWqWbce6Z8foYEJrzLio-JSQYpnjUgr8PB2ZLlyZWhLzDkp_3M4AZ81R--Vue6nkbxb5OUGgmMVNwBUjguc1FU8OEYbNrDjOlv8Ymi79gHzRb79l6VNQds3IDUVw70zizZkNWVyec2nR1SbbIhadhvhaaQz473jvQgnUDHe_Cm0EMfG1EY9VKwx5E5linl_0Y7QAuBqaijdak1S5ZjYgBC0AD3yIW43w-BiIn6q2uTEHafdSfQjnp_ZaWY_bvdu7Fc4Rdl3gfgu3HoJsQ2cdYykZzulhhkehr_rqCA04AtP_fEptgXHVZrHEJRT-A2NRtmzLYH9Dq92ZS4ROFXouRFMZsfA5X7Ly3k8ZrWYZr_pmkbr5xg5pvjgXuqnoo8F_mtCKKZbaEoXcZc47xyaDHvXaFyp1b0vbsbk0wrD8sVbj1iuQ3Apa2u540RJqnqBd4cUQgGEWvutwaDQ3nSo6CishuyB0d0X0iVzbaZRebNlxkijNJFqWJzPoS8Vcpeq87qfLeb3ML1Y8MtWskbqZTMaryd2tElYNAvDTPgAywhe5tMdcIldqR6riuTQtrpj1WYRVp6mPIrbe3kEzh7lrvW98wtlvHB8Pt5IGpLWAURrmT4XgUJZ6bXO87_43U1CNZk_Yhyg-Bnn6lcxifZLGkiP7pPmp1hbi1hqeYPBdbdPG9N4C1f4RjQqqT4oXjLSB50z1uN9nYhVDg8vmuPHArP_2DvgXZbii019ewtq4E76tpGCLM_BHHNIUQl2WRzfnEwRcILOUv99dGSPj_81L0_QNyODRcStuN26LjPaK087HXkc_J_Gj1bwAX3XFG51M6n-b4i4chIKPctVTZTty4rKP-zS-89U4EOO6Ym2rZDeOY2MddXnKAtFQ05hET21ZDg1zwhprHzUxjoRXIbp-hPEgyP_4UxbUkxo6MdfIZQ-Out7Loug5U0JUKUeTcdcA574v5HpcEadsCH2N9suYfMrmf7PoLOhbkpZ0xO29jBYR-bA9e5ZdkZsrbaMGRwUc|cs=AP6Md-UHdtSo_jwrk69nj1nwwhho; IDE=AHWqTUkD1mHczWhaDydRkQAPnC3DqLIQtbFLiNSjL8EqozFGNQVsCLRU-iTPiD39' \
+  --compressed ;
+curl 'https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j90&tid=UA-41830167-5&cid=94203958.1623076068&jid=572102081&_u=SCCAAEALAAAAAC~&z=859077375' \
+  -H 'authority: www.google.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: AID=AJHaeXI0EdKtvmsLkU-NhX17TNiA0-LDyopqJxzBG6UD17wl7VZlCA; __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; __Secure-3PSID=-Qdhx01409koAkcMkMmWwIaL59vsg0yLBXM0IwFDJG27K4oEnmCBEAen9hKFBbn4mefLQA.; NID=216=q4m5kiq2Eu_eDIwTXlVzTlSsuYjfK69NUsLiEDa6zh9_9yUey-428jimCKlY7wMOFxmpeamMH_ywc7CXvPnwR1ocmDal09QGLSmcdO697p9HS7lvX-9tVcx5JpzJxgglanzVZZ7IF4W5_kqcYPADa0BDE7sN3H5zfFGiTubsoJcZc-Xll2ikDC0uOE8B4Rk-2_5xJnBukj8dkcPKgT-J5D5ULco9WKbeoRbR299IpMngioH-z59pMfhszvnxW2xH2ew; 1P_JAR=2021-06-07-20; __Secure-3PSIDCC=AJi4QfHjBshd7_WUP835YGcjZCf2xf2inf8U9C03XZoAObW5uqMxMRD4D8nryU7aeRnfNHSyTkk' \
+  --compressed ;
+curl 'https://www.google.com.mx/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j90&tid=UA-41830167-5&cid=94203958.1623076068&jid=572102081&_u=SCCAAEALAAAAAC~&z=859077375' \
+  -H 'authority: www.google.com.mx' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: CONSENT=YES+MX.es+20160828-16-0; ANID=AHWqTUno8kCaPfEjt3hK7f0JN8NPIu1NNhHbt-i8HcWGkXynFg-5l8xBJm64YgIl; 1P_JAR=2021-05-09-17; __Secure-3PSID=-AdhxzSu6yWRDm4540swKxYKLNosgVXXEP923MogZ8ARR7Xv-fFHo7SJTS15UuZBGVCtQQ.; __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; NID=216=Q9GtbVcBlMt-KgJwwXrYi4TigH2Kqn-9S9t-jXzAAmmGgblIjSQfoMGOX4hPL6N2AIMbYwxXuIPZN7NNIQ7kIe4As-bF3T-rxnsyzkvqGyioujw-3QS4irNSz1gyeShUEsk1GGb43Xn527Mxv4jbZ1BlglPfHkgH3ch-s7OpuVPxjk294JKI5-IVe4XtIGDnWsh4X5U6yOMpFscGYjzT621yQdoCEvF2y3OB' \
+  --compressed ;
+curl 'https://www.google.com/pagead/1p-user-list/965976234/?random=1623099929494&cv=9&fst=1623099600000&num=1&guid=ON&eid=376635471%2C2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&async=1&fmt=3&is_vtc=1&random=2141296557&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y' \
+  -H 'authority: www.google.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; __Secure-3PSID=-Qdhx01409koAkcMkMmWwIaL59vsg0yLBXM0IwFDJG27K4oEnmCBEAen9hKFBbn4mefLQA.; NID=216=q4m5kiq2Eu_eDIwTXlVzTlSsuYjfK69NUsLiEDa6zh9_9yUey-428jimCKlY7wMOFxmpeamMH_ywc7CXvPnwR1ocmDal09QGLSmcdO697p9HS7lvX-9tVcx5JpzJxgglanzVZZ7IF4W5_kqcYPADa0BDE7sN3H5zfFGiTubsoJcZc-Xll2ikDC0uOE8B4Rk-2_5xJnBukj8dkcPKgT-J5D5ULco9WKbeoRbR299IpMngioH-z59pMfhszvnxW2xH2ew; 1P_JAR=2021-06-07-20; __Secure-3PSIDCC=AJi4QfHjBshd7_WUP835YGcjZCf2xf2inf8U9C03XZoAObW5uqMxMRD4D8nryU7aeRnfNHSyTkk' \
+  --compressed ;
+curl 'https://www.google.com.mx/pagead/1p-user-list/965976234/?random=1623099929494&cv=9&fst=1623099600000&num=1&guid=ON&eid=376635471%2C2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&async=1&fmt=3&is_vtc=1&random=2141296557&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y' \
+  -H 'authority: www.google.com.mx' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: CONSENT=YES+MX.es+20160828-16-0; ANID=AHWqTUno8kCaPfEjt3hK7f0JN8NPIu1NNhHbt-i8HcWGkXynFg-5l8xBJm64YgIl; 1P_JAR=2021-05-09-17; __Secure-3PSID=-AdhxzSu6yWRDm4540swKxYKLNosgVXXEP923MogZ8ARR7Xv-fFHo7SJTS15UuZBGVCtQQ.; __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; NID=216=Q9GtbVcBlMt-KgJwwXrYi4TigH2Kqn-9S9t-jXzAAmmGgblIjSQfoMGOX4hPL6N2AIMbYwxXuIPZN7NNIQ7kIe4As-bF3T-rxnsyzkvqGyioujw-3QS4irNSz1gyeShUEsk1GGb43Xn527Mxv4jbZ1BlglPfHkgH3ch-s7OpuVPxjk294JKI5-IVe4XtIGDnWsh4X5U6yOMpFscGYjzT621yQdoCEvF2y3OB' \
+  --compressed ;
+curl 'https://www.google.com/pagead/1p-conversion/455023481/?random=2025999262&cv=9&fst=1623099929433&num=1&value=0&label=8H46COrCovABEPm2_NgB&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&did=dMWZhNz&gcs=G111&gcd=G100&capi=1&hn=www.googleadservices.com&us_privacy=1---&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=GYq-YLCkKJG6nwS26ID4Bw&cid=CAQSMACNIrLMjuQ07lwKau_Oib9Hr6ZZ__Z84kkeHgKwuE7qBBingYDy2sAcJZU69XpFWw&eitems=ChAI8If3hQYQk7jy9urK55BhEh0A_EJhYxj_4uny5Y_Hm6-SCl4UfFGZB9eXD8rHYg&random=1738194995&resp=GooglemKTybQhCsO' \
+  -H 'authority: www.google.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; __Secure-3PSID=-Qdhx01409koAkcMkMmWwIaL59vsg0yLBXM0IwFDJG27K4oEnmCBEAen9hKFBbn4mefLQA.; NID=216=q4m5kiq2Eu_eDIwTXlVzTlSsuYjfK69NUsLiEDa6zh9_9yUey-428jimCKlY7wMOFxmpeamMH_ywc7CXvPnwR1ocmDal09QGLSmcdO697p9HS7lvX-9tVcx5JpzJxgglanzVZZ7IF4W5_kqcYPADa0BDE7sN3H5zfFGiTubsoJcZc-Xll2ikDC0uOE8B4Rk-2_5xJnBukj8dkcPKgT-J5D5ULco9WKbeoRbR299IpMngioH-z59pMfhszvnxW2xH2ew; 1P_JAR=2021-06-07-20; __Secure-3PSIDCC=AJi4QfHjBshd7_WUP835YGcjZCf2xf2inf8U9C03XZoAObW5uqMxMRD4D8nryU7aeRnfNHSyTkk' \
+  --compressed ;
+curl 'https://www.google.com/pagead/1p-user-list/965976234/?random=1623099929499&cv=9&fst=1623099600000&num=1&guid=ON&eid=2505059651&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&async=1&fmt=3&is_vtc=1&random=2264067899&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y' \
+  -H 'authority: www.google.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; __Secure-3PSID=-Qdhx01409koAkcMkMmWwIaL59vsg0yLBXM0IwFDJG27K4oEnmCBEAen9hKFBbn4mefLQA.; NID=216=q4m5kiq2Eu_eDIwTXlVzTlSsuYjfK69NUsLiEDa6zh9_9yUey-428jimCKlY7wMOFxmpeamMH_ywc7CXvPnwR1ocmDal09QGLSmcdO697p9HS7lvX-9tVcx5JpzJxgglanzVZZ7IF4W5_kqcYPADa0BDE7sN3H5zfFGiTubsoJcZc-Xll2ikDC0uOE8B4Rk-2_5xJnBukj8dkcPKgT-J5D5ULco9WKbeoRbR299IpMngioH-z59pMfhszvnxW2xH2ew; 1P_JAR=2021-06-07-20; __Secure-3PSIDCC=AJi4QfHjBshd7_WUP835YGcjZCf2xf2inf8U9C03XZoAObW5uqMxMRD4D8nryU7aeRnfNHSyTkk' \
+  --compressed ;
+curl 'https://www.google.com.mx/pagead/1p-user-list/965976234/?random=1623099929499&cv=9&fst=1623099600000&num=1&guid=ON&eid=2505059651&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&async=1&fmt=3&is_vtc=1&random=2264067899&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y' \
+  -H 'authority: www.google.com.mx' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: CONSENT=YES+MX.es+20160828-16-0; ANID=AHWqTUno8kCaPfEjt3hK7f0JN8NPIu1NNhHbt-i8HcWGkXynFg-5l8xBJm64YgIl; 1P_JAR=2021-05-09-17; __Secure-3PSID=-AdhxzSu6yWRDm4540swKxYKLNosgVXXEP923MogZ8ARR7Xv-fFHo7SJTS15UuZBGVCtQQ.; __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; NID=216=Q9GtbVcBlMt-KgJwwXrYi4TigH2Kqn-9S9t-jXzAAmmGgblIjSQfoMGOX4hPL6N2AIMbYwxXuIPZN7NNIQ7kIe4As-bF3T-rxnsyzkvqGyioujw-3QS4irNSz1gyeShUEsk1GGb43Xn527Mxv4jbZ1BlglPfHkgH3ch-s7OpuVPxjk294JKI5-IVe4XtIGDnWsh4X5U6yOMpFscGYjzT621yQdoCEvF2y3OB' \
+  --compressed ;
+curl 'https://api.amplitude.com/' \
+  -H 'authority: api.amplitude.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw 'checksum=ec093e341ceb4933fb5425f1650fb0af&client=eb40164749e5ed36747e792ddfdba479&e=%5B%7B%22device_id%22%3A%22GY4t9VHuuVHd-z-5tIa6sl%22%2C%22user_id%22%3Anull%2C%22timestamp%22%3A1623099929531%2C%22event_id%22%3A38%2C%22session_id%22%3A1623099016046%2C%22event_type%22%3A%22View%20search%22%2C%22version_name%22%3Anull%2C%22platform%22%3A%22Web%22%2C%22os_name%22%3A%22Chrome%22%2C%22os_version%22%3A%2291%22%2C%22device_model%22%3A%22Mac%22%2C%22language%22%3A%22es-US%22%2C%22api_properties%22%3A%7B%7D%2C%22event_properties%22%3A%7B%22page_name%22%3A%22art%22%2C%22page_path%22%3A%22%2Fsearch%2Fart%22%2C%22page_title%22%3A%22art%22%2C%22page_type%22%3A%22search%22%2C%22page_url%22%3A%22https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart%22%2C%22referrer_url%22%3A%22%22%2C%22market%22%3A%22b2c%22%2C%22error_type%22%3A%22500%22%2C%22has_used_autocomplete%22%3Afalse%2C%22is_redirected_from_search%22%3Afalse%2C%22search_query%22%3A%22%22%2C%22search_keywords%22%3A%5B%22%22%5D%2C%22_amp_event_type%22%3A%22pageview%22%2C%22_mm_environment%22%3A%22true%22%2C%22_mm_spartacuxOrSf%22%3A%22SpartacUX%22%7D%2C%22user_properties%22%3A%7B%7D%2C%22uuid%22%3A%22a676b695-deab-4704-9422-06955304880a%22%2C%22library%22%3A%7B%22name%22%3A%22amplitude-js%22%2C%22version%22%3A%228.1.0%22%7D%2C%22sequence_number%22%3A76%2C%22groups%22%3A%7B%7D%2C%22group_properties%22%3A%7B%7D%2C%22user_agent%22%3A%22Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F91.0.4472.77%20Safari%2F537.36%22%7D%5D&upload_time=1623099929679&v=2' \
+  --compressed ;
+curl 'https://www.google.com.mx/pagead/1p-conversion/455023481/?random=2025999262&cv=9&fst=1623099929433&num=1&value=0&label=8H46COrCovABEPm2_NgB&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=960&u_w=1536&u_ah=960&u_aw=1536&u_cd=30&u_his=25&u_tz=-300&u_java=false&u_nplug=3&u_nmime=4&gtm=2wg621&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.manomano.co.uk%2Fsearch%2Fart&tiba=art&did=dMWZhNz&gcs=G111&gcd=G100&capi=1&hn=www.googleadservices.com&us_privacy=1---&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=GYq-YLCkKJG6nwS26ID4Bw&cid=CAQSMACNIrLMjuQ07lwKau_Oib9Hr6ZZ__Z84kkeHgKwuE7qBBingYDy2sAcJZU69XpFWw&eitems=ChAI8If3hQYQk7jy9urK55BhEh0A_EJhYxj_4uny5Y_Hm6-SCl4UfFGZB9eXD8rHYg&random=1738194995&resp=GooglemKTybQhCsO&ipr=y&ezwbk=AZuM4hByBmyu4or4Zi9Pd7EGVKrvglQhA48h-7cNE0o13rX2v0cg9JD5sxjtPY2pLQ_dsWQxnNahLkBptuXbxyZgcsVu' \
+  -H 'authority: www.google.com.mx' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'x-client-data: CJa2yQEIpLbJAQjBtskBCKmdygEIo6DLAQjc8ssB' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  -H 'cookie: CONSENT=YES+MX.es+20160828-16-0; ANID=AHWqTUno8kCaPfEjt3hK7f0JN8NPIu1NNhHbt-i8HcWGkXynFg-5l8xBJm64YgIl; 1P_JAR=2021-05-09-17; __Secure-3PSID=-AdhxzSu6yWRDm4540swKxYKLNosgVXXEP923MogZ8ARR7Xv-fFHo7SJTS15UuZBGVCtQQ.; __Secure-3PAPISID=pIfDxmrTZIAQVuQu/AbdCMUUnCoab0PIvr; NID=216=Q9GtbVcBlMt-KgJwwXrYi4TigH2Kqn-9S9t-jXzAAmmGgblIjSQfoMGOX4hPL6N2AIMbYwxXuIPZN7NNIQ7kIe4As-bF3T-rxnsyzkvqGyioujw-3QS4irNSz1gyeShUEsk1GGb43Xn527Mxv4jbZ1BlglPfHkgH3ch-s7OpuVPxjk294JKI5-IVe4XtIGDnWsh4X5U6yOMpFscGYjzT621yQdoCEvF2y3OB' \
+  --compressed ;
+curl 'https://snowplow.manomano-api.com/com.snowplowanalytics.snowplow/tp2' \
+  -H 'authority: snowplow.manomano-api.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json; charset=UTF-8' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"schema":"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4","data":[{"e":"ue","ue_px":"eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy91bnN0cnVjdF9ldmVudC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJzY2hlbWEiOiJpZ2x1OmNvbS5tYW5vbWFuby5pZ2x1L2d0bV9wYWdlX3ZpZXcvanNvbnNjaGVtYS8xLTAtNSIsImRhdGEiOnsicGFnZV90eXBlIjoic2VhcmNoIiwiYXJ0aWNsZV9pZCI6MCwiZ2VuZXJpY19pZCI6MCwicHJvZHVjdF9pZCI6MCwiY2F0ZWdvcnlfaWQiOjAsInByaWNlIjowLCJhY3RpdmVfYWJfdGVzdCI6eyJhYl90ZXN0XzU5IjoiZmVhdHVyZV9iIiwiYWJfdGVzdF82MCI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNzYiOiJmZWF0dXJlX2EiLCJhYl90ZXN0Xzk3IjoiZmVhdHVyZV9hIiwiYWJfdGVzdF8yODAiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzI4OCI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfMzAzIjoiZmVhdHVyZV9hIiwiYWJfdGVzdF8zNTIiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzM2OCI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfMzcxIjoiZmVhdHVyZV9iIiwiYWJfdGVzdF80NDgiOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzQ1MyI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNDczIjoiZmVhdHVyZV9hIiwiYWJfdGVzdF80ODQiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzQ4NiI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNDk1IjoiZmVhdHVyZV9iIiwiYWJfdGVzdF80OTciOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzQ5OCI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNTAzIjoiZmVhdHVyZV9iIiwiYWJfdGVzdF81MTkiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzUyOCI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNTI5IjoiZmVhdHVyZV9hIiwiYWJfdGVzdF81MzAiOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzU0MSI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNTU4IjoiZmVhdHVyZV9iIiwiYWJfdGVzdF8xOSI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNTY0IjoiZmVhdHVyZV9hIiwiYWJfdGVzdF81NzgiOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzU4MiI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNTk1IjoiZmVhdHVyZV9iIiwiYWJfdGVzdF81OTYiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzE4MyI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNjA0IjoiZmVhdHVyZV9hIiwiYWJfdGVzdF82MDUiOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzYwOCI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNDAyIjoiZmVhdHVyZV9iIiwiYWJfdGVzdF82MTAiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzYxMSI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNjEyIjoiZmVhdHVyZV9iIiwiYWJfdGVzdF82MTciOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzYyMCI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNjI1IjoiZmVhdHVyZV9iIiwiYWJfdGVzdF82MzEiOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzYzMiI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNjM2IjoiZmVhdHVyZV9hIiwiYWJfdGVzdF82MzkiOiJmZWF0dXJlX2IiLCJhYl90ZXN0XzY0MiI6ImZlYXR1cmVfYSIsImFiX3Rlc3RfNjU4IjoiZmVhdHVyZV9hIiwiYWJfdGVzdF82NTkiOiJmZWF0dXJlX2EiLCJhYl90ZXN0XzY0NSI6ImZlYXR1cmVfYiIsImFiX3Rlc3RfNjY2IjoiZmVhdHVyZV9iIn0sImFidGVzdF9pZCI6IjY0NGQwMTNmLTM5NGMtMjdmYi03YWRjLTc3MTQ5YWMyNjdiOSIsImNoYW5uZWwiOiJ3ZWIifX19","tv":"js-2.9.0","tna":"stream-tracker","aid":"stream-tracker","p":"web","tz":"America/Mexico_City","lang":"es-US","cs":"UTF-8","f_pdf":"1","f_qt":"0","f_realp":"0","f_wma":"0","f_dir":"0","f_fla":"0","f_java":"0","f_gears":"0","f_ag":"0","res":"1536x960","cd":"30","cookie":"1","eid":"8e4ea644-0353-40c4-8d65-ee23d638e641","dtm":"1623099929467","vp":"1536x881","ds":"1536x6179","vid":"3","sid":"6d5d6177-b15c-42b8-bf4c-b9a4d69b224b","duid":"2b649d56-66f5-404d-b419-c76b3edc2e56","fp":"1904607806","url":"https://www.manomano.co.uk/search/art","stm":"1623099930748"}]}' \
+  --compressed ;
+curl 'https://snowplow.manomano-api.com/com.snowplowanalytics.snowplow/tp2' \
+  -X 'OPTIONS' \
+  -H 'authority: snowplow.manomano-api.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: content-type' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/conversations/routing/targeting-rules/available?platform=ha&lang=en&ids\[\]=422787' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/engagement/targeted-visitors/triggered-rules?platform=ha' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"visitor":{"id":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","websiteId":7143,"sessionId":"78fe0c88-80ac-4ca2-85e6-4881f4bc8561"},"qualificationRules":[],"interactionRules":[{"id":422787,"isVisibleAndAvailable":true,"canBeDisplayed":true,"shouldIncrementDisplayCount":true,"shouldIncrementMissedDisplayCount":false,"availability":{"chat":{"available":true,"busy":false},"call":{"available":false,"busy":false},"video":{"available":false,"busy":false},"mobileapp":{"available":false,"busy":false},"social":{"available":false,"busy":false},"callInstant":{"available":false,"enabled":true},"callMeeting":{"available":false,"enabled":false}}}]}' \
+  --compressed ;
+curl 'https://api.iadvize.com/collector/ha/live/events' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"event":"engagement.rule.executed","properties":{"visitorDate":"2021-06-07T21:05:31.185Z","projectId":"ha-7143","sourceVisitorId":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","visitorLanguage":"en","device":"desktop","browser":"Chrome","url":"https://www.manomano.co.uk/search/art","engagementRuleId":"422787"}}' \
+  --compressed ;
+curl 'https://static.iadvize.com/livechat/3.226.2/notification.b96ef559.js' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: ' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://static.iadvize.com/livechat/3.226.2/notification.7a02d59f.css' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: ' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://api.iadvize.com/collector/ha/live/events' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --data-raw '{"event":"engagement.notification.displayed","properties":{"visitorDate":"2021-06-07T21:05:31.401Z","projectId":"ha-7143","sourceVisitorId":"e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575","visitorLanguage":"en","device":"desktop","browser":"Chrome","url":"https://www.manomano.co.uk/search/art","notificationId":"44d24e77-d41e-4196-931c-8c964d2b1d75","notificationType":"templated_notification","notificationChannels":["chat"],"engagementRuleId":"422787","notificationTemplateId":"41dde80c-4ab6-46ab-b9d4-c029086f7eb8"}}' \
+  --compressed ;
+curl $'https://halc.iadvize.com/rpc/jsonstore.php?sid=7143&u=e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575&data=%7B%22proactif_activated%22%3A%220%22%2C%22message%22%3A%22The%20rule%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%20has%20been%20executed%22%2C%22proactif_activatedId%22%3A422787%2C%22proactif_alert%22%3A%22\u0021proactif%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%22%2C%22phoneDisplayed%22%3A%220%22%7D&callback=?' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://www.manomano.co.uk/assets/img/themes/default/favicons/favicon.png' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'Referer: https://www.manomano.co.uk/search/art' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  --compressed ;
+curl 'https://api.iadvize.com/conversations/routing/targeting-rules/available?platform=ha&lang=en&ids\[\]=422787' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl $'https://halc.iadvize.com/rpc/jsonstore.php?sid=7143&u=e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575&data=%7B%22proactif_activated%22%3A%220%22%2C%22message%22%3A%22The%20rule%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%20has%20been%20executed%22%2C%22proactif_activatedId%22%3A422787%2C%22proactif_alert%22%3A%22\u0021proactif%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%22%2C%22phoneDisplayed%22%3A%220%22%7D&callback=?' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl 'https://api.iadvize.com/conversations/routing/targeting-rules/available?platform=ha&lang=en&ids\[\]=422787' \
+  -H 'authority: api.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed ;
+curl $'https://halc.iadvize.com/rpc/jsonstore.php?sid=7143&u=e9c0a9a8adf064982d2e4e53be793ade60be2cdfe4575&data=%7B%22proactif_activated%22%3A%220%22%2C%22message%22%3A%22The%20rule%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%20has%20been%20executed%22%2C%22proactif_activatedId%22%3A422787%2C%22proactif_alert%22%3A%22\u0021proactif%20Search-Tous%20visiteurs-Bouton%20page%20produit-2s-Desktop%22%2C%22phoneDisplayed%22%3A%220%22%7D&callback=?' \
+  -H 'authority: halc.iadvize.com' \
+  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'origin: https://www.manomano.co.uk' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.manomano.co.uk/' \
+  -H 'accept-language: es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6' \
+  --compressed
