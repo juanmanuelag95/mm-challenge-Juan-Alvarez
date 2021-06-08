@@ -37,7 +37,7 @@ The project has 15 scenarios distributed between two different contexts:
 ## Installing the Framework 
 You will need to run the following command in order to get the Framework and the dependencies
 ```
-$ git clone https://github.com/juanmanuelag95/ManoMano.git
+$ git clone https://github.com/juanmanuelag95/mm-challenge-Juan-Alvarez.git
 $ cd Question_4/purgomalum/
 $ npm install
 ```
