@@ -4,8 +4,7 @@
     "description": "Question 4",
     "scripts": {
         "test": "mocha src/test/*.js --timeout 15000",
-        "test:awesome": "mocha src/test/*.js --timeout 15000 --reporter mochawesome || true",
-        "open:report": "open mochawesome-report/mochawesome.html"
+        "test:awesome": "mocha src/test/*.js --timeout 15000 --reporter mochawesome || true"
     },
     "author": "Juan Alvarez",
     "devDependencies": {
