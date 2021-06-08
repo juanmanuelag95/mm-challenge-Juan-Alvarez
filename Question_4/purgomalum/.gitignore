@@ -1,0 +1,22 @@
+.vs/
+
+Packages/
+node_modules/
+mochawesome-report/
+**/bin/*
+**/obj/*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
