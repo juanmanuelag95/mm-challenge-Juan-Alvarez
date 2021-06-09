@@ -1,0 +1,16 @@
+{
+  "name": "question_5",
+  "version": "1.0.0",
+  "description": "Question 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps  "
+  },
+  "keywords": [],
+  "author": "Juan Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.0.7",
+    "playwright": "^1.12.0"
+  }
+}
