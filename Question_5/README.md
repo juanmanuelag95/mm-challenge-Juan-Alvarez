@@ -50,9 +50,7 @@ The test results will be recorded here `allure`.
 ## Running in Parallel
 Need to comment brower line on the `codecept.conf.js` file 
 ```
-show: false,
-      // browser: 'chromium'
-    }
+    // browser: 'chromium'
 ```
 
 Then run `npm run multiple` from the command line from root directory.
