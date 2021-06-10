@@ -2,6 +2,8 @@
 
 Packages/
 node_modules/
+allure-results/
+output/
 mochawesome-report/
 **/bin/*
 **/obj/*

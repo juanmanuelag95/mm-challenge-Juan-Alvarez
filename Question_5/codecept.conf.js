@@ -3,7 +3,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: 'https://www.manomano.co.uk/',
-      show: false,
+      show: true,
       browser: 'chromium'
     }
   },

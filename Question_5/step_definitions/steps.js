@@ -36,3 +36,15 @@ Then('Suggestion list should be shown', () => {
 Then('We select an item from the suggestion list', () => {
   homePage.selectItemFromSelectionList();
 });
+
+Then('No products found legend should be display', () => {
+  resultPage.noProductsFound();
+});
+
+Then('Click on the Clean Button', () => {
+  homePage.cleanTheSearchBar();
+});
+
+Then('Verify that value of the search var is the following {string}', (expectedValue) => {
+  homePage.verifyValueOfSearchBar(expectedValue);
+});

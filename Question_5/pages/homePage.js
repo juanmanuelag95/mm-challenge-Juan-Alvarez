@@ -1,4 +1,5 @@
 const { I } = inject();
+const assert = require('assert');
 
 module.exports = {
   
@@ -8,10 +9,12 @@ module.exports = {
 
   searchButton: '#submit-form',
   allowCookiesButton: '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll',
-  accountMenu: {css: 'a[href="/customer-area"]'},
+  cookiesPopUp: '#CybotCookiebotDialog',
+  accountMenu: {xpath: '(//*[contains(text(),"Account")])[1]'},
   loginButton: {css: 'a[href="/login"]'},
   suggestionList: 'div[class="Suggestions_root__Lf3Ip"]',
   suggestionItem: '(//*[contains(@class,"SuggestionItem_link__cBU35")])[1]',
+  cleanButton: '(//*[contains(@id,"Path")])[1]',
   
   sendSearch(product) {
     I.fillField(this.fields.search, product);
@@ -24,6 +27,7 @@ module.exports = {
   acceptCookies() {
     I.waitForVisible(this.allowCookiesButton, 10)
     I.click(this.allowCookiesButton);
+    I.waitForInvisible(this.cookiesPopUp)
   },
 
   imNotLogedIn(){
@@ -41,5 +45,15 @@ module.exports = {
   selectItemFromSelectionList(){
     I.waitForVisible(this.suggestionItem, 10)
     I.click(this.suggestionItem)
+  },
+
+  cleanTheSearchBar(){
+    I.waitForVisible(this.cleanButton, 10)
+    I.click(this.cleanButton)
+  },
+
+  async verifyValueOfSearchBar(expectedValue){
+    let actualValue = await I.grabAttributeFrom("#searchbar", "value")
+    assert.strictEqual(actualValue, expectedValue)
   },
 }

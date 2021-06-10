@@ -14,3 +14,4 @@ Please use this site, https://www.manomano.co.uk
 | Enter the max_length of the search input |  1.- Go to the main page<br> 2.- Enter a long request string (< 50000)<br> 3.- Hit the search button | Max Length error handling message should be displayed  |
 | SQL Injection must be prevent | 1.- Go to the main page<br> 2.- Insert some SQL Injection Queries<br> 3.- Hit the search button | Should be handled as expected, no breaks should be detected |
 | Bad request handling |1.- Go to the main page<br> 2.- Throttling the network or simulate bad server response <br> 3.- Hit the search button | Expected error message should be display |
+| Clear button |1.- Go to the main page<br> 2.- Hit the clear button <br> | Search Bar should be empty |
