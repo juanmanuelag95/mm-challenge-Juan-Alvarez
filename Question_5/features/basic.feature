@@ -1,4 +1,6 @@
 Feature: Search Bar
 
-  Scenario: Search Bar happy path
-    Given I am non registered user, I want to search for a product
+  Scenario: Search Bar Happy Path
+    Given I am non registered user
+    When I search for a product "table"
+    Then Results are listed

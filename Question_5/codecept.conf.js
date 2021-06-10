@@ -15,6 +15,10 @@ exports.config = {
     features: './features/*.feature',
     steps: ['./step_definitions/steps.js']
   },
+  include: {
+    homePage: './pages/homePage.js',
+    resultPage: './pages/homePage.js'
+  },
   plugins: {
     screenshotOnFail: {
       enabled: true
