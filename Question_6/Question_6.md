@@ -21,7 +21,7 @@ Is the type of testing to evaluate that system fits the corresponding requiremen
 
 ## UI Testing
 Is the type of testing  to check the  aspects of any software that a user will come into contact with.  This usually means testing the visual elements to verify that they are functioning according to requirements. I can think of some TC that will fit this level (login component)
-1.User enter valid user and password
+1. User enter valid user and password
 2. User enter valid user but invalid password
 3. User reset the password
 4. Empty fields and click on the login button
