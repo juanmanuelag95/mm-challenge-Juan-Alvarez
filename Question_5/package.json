@@ -4,7 +4,8 @@
   "description": "Question 5",
   "main": "index.js",
   "scripts": {
-    "test": "npx codeceptjs run --steps  "
+    "test": "npx codeceptjs run --steps",
+    "multiple": "npx codeceptjs run-multiple basic"
   },
   "keywords": [],
   "author": "Juan Alvarez",

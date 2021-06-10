@@ -7,6 +7,11 @@ exports.config = {
       browser: 'chromium'
     }
   },
+  multiple: {
+    basic: {
+      browsers: ['chromium, firefox']
+    }
+  },
   mocha: {},
   bootstrap: null,
   teardown: null,
