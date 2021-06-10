@@ -3,7 +3,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: 'https://www.manomano.co.uk/',
-      show: true,
+      show: false,
       browser: 'chromium'
     }
   },
@@ -29,6 +29,10 @@ exports.config = {
     },
     tryTo: {
       enabled: true
+    },
+    allure: {
+      enabled: true,
+      outputDir: "allure-results"
     }
   },
   name: 'Question_5'

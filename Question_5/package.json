@@ -10,6 +10,7 @@
   "author": "Juan Alvarez",
   "license": "ISC",
   "dependencies": {
+    "allure-commandline": "^2.13.8",
     "codeceptjs": "^3.0.7",
     "playwright": "^1.12.0"
   }
