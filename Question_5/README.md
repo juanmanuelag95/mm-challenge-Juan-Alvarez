@@ -45,7 +45,8 @@ You will need:
 - npm 6.14.13 installed
 ```
 
-The test results will be recorded here `allure`.
+To generate the reports and display them, need to trigger 
+the following command `allure serve`.
 
 ## Running in Parallel
 Need to comment brower line on the `codecept.conf.js` file 
