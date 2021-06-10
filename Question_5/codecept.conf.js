@@ -17,7 +17,7 @@ exports.config = {
   },
   include: {
     homePage: './pages/homePage.js',
-    resultPage: './pages/homePage.js'
+    resultPage: './pages/resultPage.js'
   },
   plugins: {
     screenshotOnFail: {

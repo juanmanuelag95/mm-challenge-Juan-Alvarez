@@ -15,11 +15,24 @@ Given('I am non registered user', () => {
 
 When('I search for a product {string}', (product) => {
   homePage.sendSearch(product)
+});
+
+Then('Click on the Search Button', () => {
   homePage.clickOnTheSearchButton();
 });
 
 Then('Results are listed', () => {
-  // homePage.sendSearch(product)
-  // homePage.clickOnTheSearchButton();
-  resultPage.resultsAreListed
+  resultPage.resultsAreListed();
+});
+
+Then('Results should not be listed', () => {
+  resultPage.resultsAreNotListed();
+});
+
+Then('Suggestion list should be shown', () => {
+  homePage.suggestionListShown();
+});
+
+Then('We select an item from the suggestion list', () => {
+  homePage.selectItemFromSelectionList();
 });
