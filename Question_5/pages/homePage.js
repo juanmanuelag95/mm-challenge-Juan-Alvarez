@@ -53,7 +53,7 @@ module.exports = {
   },
 
   async verifyValueOfSearchBar(expectedValue){
-    let actualValue = await I.grabAttributeFrom("#searchbar", "value")
+    let actualValue = await I.grabAttributeFrom(this.fields.search, "value")
     assert.strictEqual(actualValue, expectedValue)
   },
 }
